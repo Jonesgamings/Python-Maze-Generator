@@ -4,16 +4,16 @@ import pygame
 from time import perf_counter
 from random import choice, randint
 
-DISPLAY = True
+DISPLAY = False
 RESETABLE = True
 FULLSCREEN = False
 
-WIDTH, HEIGHT = (3000, 3000)
+WIDTH, HEIGHT = (1000, 1000)
 OFFSET = 5
 THICKNESS = 2
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
-MAZESIZE = 50
+MAZESIZE = 200
 
 class Maze:
 
